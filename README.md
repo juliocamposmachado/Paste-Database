@@ -378,6 +378,176 @@ except Exception as e:
 - Dados que precisam de transações ACID
 - Informações regulamentadas (LGPD, GDPR)
 
+## 🗄️ Bancos de Dados Compatíveis
+
+O **Paste-Database** pode utilizar qualquer serviço pastebin como backend. Abaixo está a lista completa de serviços testados e compatíveis:
+
+### 🌐 Pastebins Públicos
+
+Usuários não autenticados podem criar pastes:
+
+- **https://pastebin.com** - O mais popular e confiável
+- **https://paste.safone.me** - Usado como padrão no sistema
+- **https://justpaste.it** (alias: jpst.it)
+- **https://jsfiddle.net** - Focado em JavaScript
+- **https://paste.centos.org** - Mantido pela comunidade CentOS
+- **https://jsbin.com** - Editor colaborativo
+- **https://pastelink.net** - Links automáticos
+- **https://codebeautify.org** - Com formatação de código
+- **https://controlc.com** (aliases: pasted.co, tny.cz)
+- **https://ideone.com** - Compilador online
+- **http://paste.rohitab.com** - Comunidade de desenvolvedores
+- **https://codeshare.io** - Compartilhamento em tempo real
+- **http://paste.opensuse.org** - Mantido pela openSUSE
+- **https://dotnetfiddle.net** - Focado em .NET
+- **https://notes.io** - Interface simples
+- **https://paste2.org** - Múltiplas linguagens
+- **https://hastebin.com** - Ultra-rápido
+- **https://ivpaste.com** - Interface em espanhol
+- **https://justpaste.me** - Sem registro necessário
+- **https://pastebin.osuosl.org** - Open Source Lab
+- **https://bpa.st** - Focado em Python
+- **https://paste.ofcode.org** - Múltiplas linguagens
+- **https://paste.ee** (alternativa: pastee.dev)
+- **https://dpaste.org** - Baseado em Django
+- **https://friendpaste.com** - Interface amigável
+- **https://defuse.ca/pastebin.htm** - Com criptografia
+- **https://dpaste.com** - Versão comercial
+- **https://cl1p.net** - Clipboard na internet
+- **http://pastie.org** - Interface minimalista
+- **https://pastecode.io** - Para desenvolvedores
+- **https://pastebin.fr** - Versão francesa
+- **http://jsitor.com** - Editor JavaScript
+- **https://termbin.com** - Via terminal (nc)
+- **https://p.ip.fi** - Serviço finlandês
+- **http://cutapaste.net** - Interface limpa
+- **https://paste.sh** - Criptografado
+- **https://paste.jp** - Versão japonesa
+- **https://paste-bin.xyz** - Alternativa moderna
+- **https://paste.debian.net** - Mantido pela Debian
+- **http://vpaste.net** - Baseado no Vim
+- **http://paste.org.ru** - Versão russa
+- **https://quickhighlighter.com** - Realce de sintaxe
+- **https://commie.io** - Com comentários por linha
+- **http://everfall.com/paste/** - Com histórico de versões
+- **https://kpaste.net** - Debug colaborativo
+- **https://www.pastebin.pt** - Com criptografia AES
+- **https://n0paste.tk** - Europeu
+- **https://tutpaste.com** - Interface educacional
+- **https://bitbin.it** - ⚠️ Desativando em 2024
+- **https://pastebin.fi** - Versão finlandesa
+- **https://nekobin.com** - Design moderno
+- **https://www.paste4btc.com** - Com monetização
+- **https://pastejustit.com** (alias: pastebin.ai)
+- **https://paste.js.org** - Focado em JavaScript
+- **https://paste.mod.gg/** - BlazeBin moderno
+- **https://paste.myst.rs** (alias: paste.ax) - pastemyst
+- **https://beanpaste.fun** - Interface divertida
+- **https://rentry.co/** - Com markdown
+- **https://lesma.eu** - Europeu com limites
+- **https://paste.monster** - Com suporte markdown
+- **https://snippet.host** - Hospedagem de snippets
+- **https://pastesio.com** (alias: pastes.io) - Estatísticas detalhadas
+- **https://xi.pe** - CLI-friendly
+- **https://macrobin.co** - Com recursos avançados
+- **https://fragbin.com** - Moderno e seguro
+
+### 🔐 Pastebins com Autenticação
+
+Apenas usuários autenticados podem criar pastes:
+
+- **https://gist.github.com** - GitHub Gists
+- **https://gitlab.com/explore/snippets** - GitLab Snippets
+- **https://codepen.io** - Frontend playground
+- **https://repl.it** - Ambiente de desenvolvimento
+- **https://paste.ubuntu.com** - Oficial do Ubuntu
+- **https://invent.kde.org/explore/snippets** - KDE Snippets
+- **https://snipplr.com** - Biblioteca de snippets
+- **http://paste.xinu.at** - FileBin avançado
+
+### 📚 Pastebins Somente Leitura
+
+Arquivos para consulta (não aceitam novos pastes):
+
+- **https://www.geany.org/p/** - Geany Pastebin
+- **http://paste.pound-python.org** - Desativado
+- **http://paste.frubar.net/** - Apenas arquivos
+
+### ❌ Pastebins Descontinuados
+
+Serviços que não funcionam mais (para referência histórica):
+
+- **https://slexy.org** - Desativado
+- **https://textsnip.com** - Fora do ar
+- **http://phpfiddle.org** - Descontinuado
+- **https://pastebin.icoder.uz** - Não disponível
+- **https://pst.klgrth.io** - Desativado
+- **https://www.heypasteit.com** - Fora do ar
+- **http://paste.lisp.org** - Descontinuado
+- **https://pasteall.org** - Não funciona
+- **https://paste.scratchbook.ch** - Desativado
+- **https://dumpz.org** - Fora do ar
+- **http://paste.strictfp.com** - Descontinuado
+- **https://pastecode.ru** - Não disponível
+- **https://apaste.info** - Redirecionado
+- **https://pastesqf.com** - Desativado
+- **http://sprunge.us** - Não funciona
+- **https://pastecode.fr** - Fora do ar
+- **https://99paste.com** - Descontinuado
+- **https://nopaste.me** - Domínio à venda
+- **https://www.paste.lv** - Básico demais
+- **http://codepad.org** - Não disponível
+- **https://ghostbin.com** - Desativado
+- **https://pasteio.com** - Fora do ar
+- **https://paste.mozilla.org** - Mozilla descontinuou
+- **https://ide.geeksforgeeks.org** - Focou no IDE
+- **https://pastefs.com** - Problemas financeiros
+
+### 🔧 Como Usar Diferentes Pastebins
+
+```python
+# Usando pastebin alternativo
+db = PasteDatabase("https://paste.centos.org")
+
+# Testando múltiplos serviços
+services = [
+    "https://paste.safone.me",
+    "https://pastebin.com", 
+    "https://paste.centos.org",
+    "https://dpaste.org"
+]
+
+for service in services:
+    try:
+        db = PasteDatabase(service)
+        db.create("test", {"service": service, "status": "working"})
+        print(f"✅ {service} - Funcional")
+    except Exception as e:
+        print(f"❌ {service} - {e}")
+```
+
+### ⚡ Recomendações por Uso
+
+**🏆 Mais Confiáveis:**
+- `paste.safone.me` (padrão do sistema)
+- `pastebin.com` (mais popular)
+- `paste.centos.org` (mantido pela comunidade)
+
+**⚡ Mais Rápidos:**
+- `hastebin.com`
+- `termbin.com`
+- `xi.pe`
+
+**🔒 Com Segurança:**
+- `defuse.ca/pastebin.htm` (criptografado)
+- `paste.sh` (criptografado)
+- `pastebin.pt` (AES 256-bit)
+
+**💼 Para Empresas:**
+- `paste.ubuntu.com` (requer login)
+- `gist.github.com` (integrado ao GitHub)
+- `gitlab.com/snippets` (integrado ao GitLab)
+
 ## 🤝 Contribuição
 
 Quer melhorar o PasteDatabase? 
